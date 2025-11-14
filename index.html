@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sugar Tales 🎂</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+  <body>
+    <nav class="topheader">
+      <a href=""class="logo">
+        <img width="90" height="90" src="imgs/icono.png" alt="" />
+
+      <ul class="Menu-Horizontal">
+
+        <li>
+          <a href="">Categorias</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Tortas</a></li>
+            <li><a href="">Helados</a></li>
+            <li><a href="">Frutales</a></li>
+            <li><a href="">Mazamorra</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="">Metodos de pago</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Yape</a></li>
+            <li><a href="">Plin</a></li>
+            <li><a href="">Tarjeta</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <ul class="Menu-Vertical">
+            <li><a href="">Tortas</a></li>
+            <li><a href="">Helados</a></li>
+            <li><a href="">Frutales</a></li>
+            <li><a href="">Mazamorra</a></li>
+          </ul>
+          <a href="#secc-product">Seccion Productos</a>
+        </li>
+
+        <li>
+          <a href="#contactanos">Contactanos</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Tortas</a></li>
+            <li><a href="">Helados</a></li>
+            <li><a href="">Frutales</a></li>
+            <li><a href="">Mazamorra</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </body>
+
+ 
+  <section class = "seccion-productos" id = "secc-product">
+    <div class="div-gral-productos">
+      <div class = "div-prod-texto">
+
+        <h2>Seccion Productos</h2>
+        <p>
+          Somos una empresa peruana que convierte momentos familiares
+          en únicos y especiales, elaborando postres con ingredientes
+          naturales y frescos, basados en recetas mejoradas al estilo
+          casero y preparadas con mucho amor y dedicación.
+        </p>
+        <button> Mas Info...</button>
+      </div>
+    
+
+    <div class = "div-zonding-img">
+      <img src = "dolcecap/dolce.jpg"/>
+    </div>
+  </div>
+  </section>
+  <!--SECCION ZONA DIGITAL-->
+  <section class = "seccion-zonding">
+    <div class="div-gral-zonding">
+      <div class = "div-zonding-texto">
+        <h2>Seccion Zona Digital</h2>
+        <p>Nuestro propósito es inspirar a nuestro equipo a alcanzar 
+          todo su potencial y ayudarlos a cumplir sus metas y sueños.
+        </p>
+
+        <p>Alegrar a nuestros clientes en las celebraciones y momentos
+           más especiales con familiares y amigos, volviéndolos únicos
+            e inolvidables.
+        </p>
+        <button> Mas Info...</button>
+          
+      </div>
+
+      <div class="div-zonding-video">
+        <iframe
+        width="560" height="315" src="https://www.youtube.com/embed/3swTFNE5XaA?si=0FWnGsUJIfA0LHU7"
+         title="YouTube video player"
+          frameborder="0"
+           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+           referrerpolicy="strict-origin-when-cross-origin" 
+           allowfullscreen>
+          </iframe>
+      </div>
+      </div>
+  </section>
+
+  <section class = "seccion-formulario" id= "contactanos">
+    <div class = "div-cont-formulario">
+      <h2> Formulario de Clientes </h2>
+      <p> Complete todos los campos...</p>
+      <form class = "Formulario">
+        <!--INPUT-TEXT-->
+        <div class = "campo">
+          <label form="Nombres: "> Nombres Completos:</label>
+          <input type = "text" id = "nombre" name= "nombre" placeholder="Ingrese sus nombres"> 
+        </div>
+          <!--LISTA DESPLEGABLE-->
+          <div class = "campo">
+            <label form = "nombres"> Pais </label>
+            <select id = "pais" name = "pais">
+              <option value = ""> Seleccione un pais </option>
+              <option value = "Peru"> Peru </option>
+              <option value = "arg"> Argentina </option>
+              <option value = "pol"> Polonia </option>
+              <option value = "ucr"> Ucrania </option>
+
+            </select>
+
+          </div>
+            <!--CHECKBOX-->
+        <div class = "campo">
+          <label> Intereses: </label>
+          <ul class = "lista-checkbox">
+            <li> <label><input type = "checkbox" name = "Intereses" value = "a" >Ayuda</label></li>
+            <li> <label><input type = "checkbox" name = "Intereses" value = "a" >Quiero</label></li>
+            <li> <label><input type = "checkbox" name = "Intereses" value = "a" >Aprobar</label></li>
+            <li> <label><input type = "checkbox" name = "Intereses" value = "a" >Torta🗣</label></li>
+           
+          </ul>
+        </div>
+          <!--RADIO BUTTON-->
+          <div class = "campo">
+            <label> Sexo: </label>
+          <ul class = "lista-radio">
+            <li> <label><input type = "radio" name = "Sexo" value="m">Masculino</label></li>
+            <li> <label><input type = "radio" name = "Sexo" value="f">Femenino</label></li>
+
+          </ul>
+          </div>
+          <button type="submit">Enviar</button>
+         
+
+
+        </form>
+    </div>
+</section>
+
+
+  <!-- PIE DE PAGINA -->
+
+  <section id="footer">
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Logo y nombre de sitio -->
+        <div class="footer-brand">
+          <img src="imgs/icono.png" alt="Logo" class="footer-logo" />
+          <p>Sugar Tales</p>
+          <small>© 2025 Todos los derechos reservados</small>
+        </div>
+  
+        <!-- Enlaces legales -->
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <a href="/Documentos/politica-privacidad.pdf"
+            >Política de Privacidad</a
+          >
+          <!-- Dentro de href llama a un documento pdf con la poltica-->
+          <a href="/Documentos/TerminosyCondiciones.pdf">Términos y Condiciones</a>
+          <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+          <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+        </div>
+  
+        <!-- Redes sociales con íconos personalizados -->
+        <div class="footer-social">
+          <h4>Siguemee</h4>
+          <a href="#"
+            ><img
+              src="imgs/facebook.png"
+              alt="Facebook"
+              class="social-icon"
+          /></a>
+          <a href="#"
+            ><img
+              src="imgs/instagram.png"
+              alt="Instagram"
+              class="social-icon"
+          /></a>
+          <a href="#"
+            ><img
+              src="imgs/tik-tok.png"
+              alt="Tiktok"
+              class="social-icon"
+          /></a>
+          <a href="#"
+            ><img
+              src="imgs/gorjeo.png"
+              alt="Twitter"
+              class="social-icon"
+          /></a>
+         
+        </div>
+      </div>
+    </footer>
+  </section>
+  
+
+  
+
+  </body>
+</html>
+
+

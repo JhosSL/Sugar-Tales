@@ -1,0 +1,224 @@
+.topheader {
+  position: fixed;
+  background-color: rgba(255, 210, 241, 0.986);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 3px;
+
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.Menu-Horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Menu-Horizontal li a {
+  display: Block;
+  padding: 15px 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.Menu-Vertical {
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  display: none;
+  width: 150px;
+  background-color: rgb(250, 133, 188);
+  top: 100%;
+}
+
+.Menu-Horizontal li a:hover {
+  color: rgb(250, 250, 250);
+}
+
+.Menu-Horizontal li:hover .Menu-Vertical {
+  display: block;
+}
+
+/*SECCION PRODUCTOS*/
+.seccion-productos {
+  padding: 60px 20px;
+  background-color: white;
+}
+.div-gral-productos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.div-prod-texto {
+  flex: 1;
+}
+.div-prod-texto h2 {
+  color: blueviolet;
+}
+
+.div-prod-texto p {
+  color: black;
+  line-height: 1.6;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.div-prod-texto button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(255, 197, 242);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+/*efecto boton */
+.div-prod-texto button:hover {
+  transform: scale(1.1);
+}
+/*********/
+
+.div-zonding-img {
+  flex: 1;
+}
+
+.div-zonding-img img {
+  width: 100%;
+  max-width: 500px;
+}
+
+/*seccion zona digital*/
+.seccion-zonding {
+  padding: 60px 20px;
+  background-color: white;
+}
+
+.div-gral-zonding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.div-zonding-texto {
+  flex: 1;
+}
+
+.div-zonding-texto h2 {
+  color: blueviolet;
+}
+
+.div-zonding-texto p {
+  color: black;
+  line-height: 1.6;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.div-zonding-texto button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(255, 197, 242);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/*efecto boton */
+.div-zonding-texto button:hover {
+  transform: scale(1.1);
+}
+/*********/
+
+.div-zonding-video {
+  flex: 1;
+}
+
+.div-zonding-video iframe {
+  width: 100%;
+  max-width: 500px;
+}
+
+/*seccion formulario*/
+.seccion-formulario {
+  background-color: rgba(252, 130, 191, 0.123);
+  padding: 40px;
+  border: 3px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.div-cont-formulario {
+  background-color: rgb(255, 214, 248);
+  padding: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.campo {
+  background-color: rgb(253, 192, 241);
+  padding: 15px;
+  border: 1px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.Formulario label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: rgb(0, 0, 0);
+}
+
+.Formulario input[type="text"],
+.Formulario select {
+  width: 100%;
+  padding: 2%;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.lista-checkbox,
+.lista-radio {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  border: 1px;
+  background-color: rgb(255, 148, 227);
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.Formulario button {
+  background-color: rgb(252, 219, 255);
+  color: black;
+  border: 1.5px solid rgb(0, 0, 0);
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 10px 20px;
+  transition: transform 0.3s ease;
+}
+
+/*efecto boton enviar*/
+.Formulario button:hover {
+  transform: scale(1.1);
+}
+/*********/
